@@ -1,0 +1,78 @@
+# ---- Python general ----
+# Python
+venv/
+.venv/
+__pycache__/
+
+# Node / JS
+node_modules/
+dist/
+build/
+
+# Editor & lain-lain
+.vscode/
+.idea/
+*.log
+
+
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# ---- Virtual environment ----
+.venv/
+venv/
+env/
+
+# ---- Environment & secrets ----
+.env
+.env.*
+.envrc
+
+# ---- OS / editor junk ----
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+
+
+# ---- Data, cache, logs ----
+data/
+logs/
+*.log
+
+
+
+# ---- Vector DB / Chroma / cache model ----
+vectordb/
+chroma/
+chroma_db/
+*.sqlite
+*.db
+
+venv/
+.venv/
+dist/
+build/
+__pycache__/
+node_modules/
+
+# ---- Streamlit ----
+.streamlit/
+
+# ---- PyTorch / model checkpoints (kalau nanti simpan) ----
+checkpoints/
+models/
+*.pt
+*.pth
+
+# ---- Node / frontend (kalau suatu saat ada) ----
+node_modules/
